@@ -1,6 +1,8 @@
 /* Make sure you give $X credit for his work
 amd make sure you subscribe to his youtube chanel */
 
+/* =========================== Font Links=========================== */
+
 @import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
@@ -22,6 +24,9 @@ amd make sure you subscribe to his youtube chanel */
     animation: autoRun 20s linear infinite;
     z-index: 2;
 }
+
+/* =========================== Animation =========================== */
+
 @keyframes autoRun{
     from{
         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
@@ -35,7 +40,6 @@ amd make sure you subscribe to his youtube chanel */
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        /* Spaces Between the images */
         translateZ(308px);
 }
 .banner .slider .item img{
@@ -76,9 +80,7 @@ amd make sure you subscribe to his youtube chanel */
     font-family: Poppins;
     text-align: right;
     max-width: 200px;
-    text-decoration: none;
 }
-
 .banner .content h2{
     font-size: 3em;
 }
@@ -95,7 +97,7 @@ amd make sure you subscribe to his youtube chanel */
     z-index: 1;
 }
 
-/* Responsive */
+/* =========================== Responsive =========================== */
 
 @media screen and (max-width: 1023px) {
     .banner .slider{
